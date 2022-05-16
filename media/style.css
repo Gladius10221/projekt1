@@ -1,0 +1,148 @@
+﻿body{
+    max-width: 100%;
+    min-width: 80%;
+    margin: auto;
+    background: rgb(0, 5, 43);
+}
+.logotip{
+    min-width: 400px;
+    background-image: url(img1.gif) ;
+    background-size: 100% 100%;
+    clear: both;
+    padding: 0px;
+    color: gold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 200px;
+    width: auto;
+    min-width: 750px;
+
+
+}
+.rom{
+   font-size: 50px;
+}
+.osnova{
+    margin-left: 5%;
+    border-radius: 40px;
+    height: 900px;
+    width: 90%;
+    font-family: florence, cursive;
+    margin-top: 15px;
+    animation-name: background;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+  .osnova:hover{
+    color: red;
+    background: red;
+  }
+.podval{
+    width: 100%;
+    clear: both;
+    background: rgb(19, 1, 1);
+    left: 0px; bottom: 0px;
+    padding: 5px;
+}
+.log{
+    vertical-align: middle;
+}
+.fot{
+    float: right;
+    padding-top: 0px;
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+    filter: alpha(Opacity=75);
+    opacity: 0.75;
+}
+.text{
+    margin-top: 60px;
+    color: rgb(113, 113, 192);
+    text-align: center;
+    font-size: 30px;
+}
+ p.tex::selection{
+     color: red;
+ }
+.menu1{
+   float: right;
+   margin-right: 700000px
+   height: 10px;
+   margin-top: 15px;
+
+}
+ul {
+  list-style: none; /*������� ������� ������*/
+  margin: 0; /*������� �������*/
+  padding-left: 0; /*������� �������*/
+  margin-top:20px; /*������ ������ ������*/
+  font-size: 15px;
+}
+a {
+  text-decoration: none; /*������� ������������� ������ ������*/
+  background: black; /*��������� ��� � ������ ����*/
+  color:#fff; /*������ ���� ������*/
+  padding:10px; /*��������� ������*/
+  font-family: arial; /*������ �����*/
+  border-radius:50px; /*��������� ����������*/
+  -moz-transition: all 0.3s 0.01s ease; /*������ ������� �������*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+}
+a:hover {
+  background: red;/*��������� ������ ��� ���������*/
+}
+li {
+  float:left; /*��������� ������ ������������� ��� ���������� ����*/
+  margin-right:5px; /*��������� ������ � ������� ����*/
+
+}
+.menu-main:active{
+  background: blue;
+}
+input.button4 {
+  position: relative;
+  font-size: 10;
+  display: inline-block;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 15px;
+  color: red;
+  text-shadow: 0 -1px black;
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 1em;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 3px;
+  background: black linear-gradient(black, white);
+  box-shadow: inset grey 0 -1px 1px, inset 0 1px 1px silver, black 0 0 0 1px, black 0 2px 5px;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 3s linear infinite;
+}
+input.button4:hover {
+  cursor: pointer;
+  background: black linear-gradient(white, black);
+}
+input.button4:active {
+  top: 1px;
+  color: black;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+@-webkit-keyframes pulsate {
+  50% {color: black; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+  50% {color: black; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes background{
+  0%{
+    background: gold;
+  }
+  100%{
+    background: blue;
+  }

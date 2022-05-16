@@ -1,0 +1,22 @@
+.massage{
+  overflow: scroll;
+  background: grey;
+  width: 1000px;
+  margin-left: 10%;
+  height: 90%;
+}
+.masage-style{
+  background: pink;
+  border-radius: 100%;
+  padding-top: 15px;
+  width: 150px;
+  padding-left: 100px;
+  margin-left: 70%;
+}
+.masage-style2{
+  margin-right: 900px;
+  background: red;
+  padding-left: 10px;
+  border-radius: 60px;
+  padding-top: 15px;
+}

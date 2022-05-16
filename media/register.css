@@ -1,0 +1,70 @@
+body{
+    background-image: url(run.jpg);
+    background-size: 100% 600%;
+    background-attachmand: fixed;
+    background-repeat: no-repeat;
+}
+input::-webkit-input-placeholder { color: red; }
+#user{
+   width: 200px;
+}
+input[type="passsword"]::-ms-reval {
+     background: red;
+     color: black;
+}
+.form{
+     text-align: center;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+     margin-top: 20px
+}
+.logotip{
+    background: black;
+    width: 100%;
+    border-radius: 100px;
+}
+.foto{
+    text-align: right;
+    border-radius: 100px;
+    margin-right: 100px
+}
+#mail {
+   border: 2px solid grey;
+   text-align: center;
+   border-radius: 20px;
+   width: 300px;
+   height: 50px;
+   background: rgb(238, 238, 238);
+   font-size: 20px
+}
+#name{
+   border-radius: 20px;
+   width: 300px;
+   height: 50px;
+   background:  rgb(238, 238, 238);
+   font-size: 20px;
+   text-align: center;
+   border: 2px solid grey;
+}
+#password{
+   text-align: center;
+   border-radius: 20px;
+   width: 300px;
+   height: 50px;
+   background:  rgb(238, 238, 238);
+   font-size: 20px;
+   border: 2px solid grey;
+}
+#mail:focus{
+   border: 2px solid blue;
+}
+#name:focus{
+   border: 2px solid blue;
+}
+#password:focus{
+   border: 2px solid blue;
+}
+#submit{
+   border-radius: 20px;
+   border: 2px solid white;
+}

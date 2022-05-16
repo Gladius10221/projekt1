@@ -1,0 +1,16 @@
+body{
+  background-image: url("gif.gif") ;
+}
+a{
+  text-decoration: none;
+}
+.hav{
+  margin-top: 15px;
+  background-image: url(1m.jpg);
+  height: 200px;
+  width: 600px;
+  border-radius: 70px;
+}
+.hav:hover{
+  background-image: url(2m.jpg);
+}
